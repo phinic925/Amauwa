@@ -21,7 +21,7 @@ const NavBar = () => {
           </div>
           {/* Secondary Nav */}
           <div className="hidden md:flex items-center space-x-1">
-            <a href="#" className="ml-0 md:ml-7 p-3 border text-white rounded-full hover:bg-green-800 transition duration-300">Get Quote</a>
+            <a href="#" className="ml-0 md:ml-7 p-3 border text-white rounded-full hover:bg-customGreen transition duration-300">Get Quote</a>
           </div>
         </div>
       </div>
