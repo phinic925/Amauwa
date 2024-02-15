@@ -1,7 +1,7 @@
 import React from 'react'
 import frontyard from '../assets/frontyard.png'
 import kitchen from '../assets/kitchen.png'
-import garden from '../assets/garden.png'
+import maintenance from '../assets/maintenance.png'
 import interior from '../assets/interior.png'
 
 
@@ -19,12 +19,12 @@ function Services() {
     <h2>Kitchen Garden</h2>
     </div>
     <div>
-    <img src={garden}/>
+    <img src={maintenance}/>
     <h2>Garden Mintenance</h2>
     </div>
     <div>
     <img src={interior}/>
-    <h2>Interior Design</h2>
+    <h2>Interior  Plants </h2>
     </div>
     </div>
     
