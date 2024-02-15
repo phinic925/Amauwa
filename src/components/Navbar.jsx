@@ -7,9 +7,9 @@ const NavBar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex space-x-4 items-center">
-            {/* <div>
-              <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
-            </div> */}
+            <div>
+              <img src={logo} alt="Logo" className="h-10 w-10 mr-2" />
+            </div>
             {/* Primary Nav */}
             <div className="flex flex-col items-center md:flex-row md:items-center w-full"> {/* Apply ml-auto to align items to the right */}
               <a href="#" className="ml-0 md:ml-7 p-3 text-white hover:text-gray-900">Home</a>

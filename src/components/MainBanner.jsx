@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainBanner = () => {
   return (
-    <div className="h-screen flex items-center">
+    <div className="h-screen flex items-center sm:justify-start">
       <div className="max-w-md mx-auto bg-white p-8 shadow-lg" style={{ borderRadius: '20px 0 20px 0', marginLeft: '100px' }}>
         {/* Content */}
         <h1 className="text-2xl mb-3 text-customGreen" style={{ fontWeight: 'bold' }}>Bringing Nature into Your Space</h1>
