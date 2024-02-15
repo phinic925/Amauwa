@@ -27,6 +27,24 @@ function Services() {
     <h2>Interior  Plants </h2>
     </div>
     </div>
+
+
+    <div>
+    <h1>Other Services</h1>
+    <p>lAmauwa offers the best landscaping services in Nairobi. We aim to leave your compound beautiful and with a long-lasting impact.</p>
+    
+    <div>
+    <ul>
+    <li>Designing baskets</li>
+    <li>Propagation</li>
+    <li>Designing baskets</li>
+    <li>Cutting edges</li>
+    </ul>
+    </div>
+
+    <button>Get Quote</button>
+    </div>
+
     
     </section>
   )
