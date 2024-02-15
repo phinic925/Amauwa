@@ -4,6 +4,7 @@ import grp1 from '../assets/grp1.png'
 import grp2 from '../assets/grp2.png'
 import grp3 from '../assets/grp3.png'
 import grp4 from '../assets/grp4.png'
+import basil from '../assets/Basil.png'
 const About = () => {
   return (
     <div className='bg-customGreen text-white '>
@@ -67,6 +68,9 @@ const About = () => {
 
         </div>
       </div>
+      <div className="flex justify-start ">
+      <img src={basil} className="" alt="" style={{ width: '200px', height: '150px', left: '-20px' }} />
+    </div>
     </div>
   );
 };
