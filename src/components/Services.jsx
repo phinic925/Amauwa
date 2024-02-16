@@ -3,6 +3,7 @@ import frontyard from '../assets/frontyard.png'
 import kitchen from '../assets/kitchen.png'
 import maintenance from '../assets/maintenance.png'
 import interior from '../assets/interior.png'
+import services from '../assets/service.png'
 
 
 function Services() {
@@ -30,6 +31,7 @@ function Services() {
 
 
     <div>
+    <div>
     <h1>Other Services</h1>
     <p>lAmauwa offers the best landscaping services in Nairobi. We aim to leave your compound beautiful and with a long-lasting impact.</p>
     
@@ -44,6 +46,13 @@ function Services() {
 
     <button>Get Quote</button>
     </div>
+    <div>
+    <img src={services} alt="services" />
+    </div>
+    
+    
+    </div>
+  
 
     
     </section>
