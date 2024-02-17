@@ -40,7 +40,7 @@ function Services() {
           <li>Cutting edges</li>
         </ul>
       </div>
-      <button className="bg-blue-500 text-white px-4 py-2 rounded-full mt-4">Get Quote</button>
+      <button className="py-2 px-4 bg-customGreen text-white rounded-full hover:bg-green-700 transition duration-300">Get Quote</button>
     </div>
     <div className="mb-8">
       <img src={services} alt="services" className="w-full h-auto" />
