@@ -6,15 +6,19 @@ import services from '../assets/service.png';
 function Services() {
   return (
     <section className="p-8 sm:p-12 md:p-16 lg:p-20 xl:p-24">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6">What We Offer</h1>
+    <div className='text-left '>
+            <h1 className='mb-2 text-customGreen font-bold text-3xl'>What We Offer</h1>
+            <hr className="border-b-4 border-customGreen w-28 mb-4" /> {/* Horizontal line */}
+          </div>
+  
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {servicesData.map((service) => (
         <div key={service.id} className="mb-8 relative">
           <img src={service.image} alt={service.alt} className="mb-4 w-full h-40 object-cover" />
-          <h2 className="text-xl font-bold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            {service.title}
-          </h2>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h2 className="text-xl font-bold text-white">{service.title}</h2>
+        </div>
         </div>
       ))}
     </div>
