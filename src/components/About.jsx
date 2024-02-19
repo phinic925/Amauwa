@@ -27,7 +27,7 @@ const About = () => {
         <div className='flex justify-end'>
           <div className='text-right mr-20'>
             <h1 className='mb-2 text-3xl'>Our process</h1>
-            <hr className="border-b-4 border-navy w-20 mb-4" /> {/* Horizontal line */}
+            <hr className="border-b-4 border-navy w-20 mb-4 justify-end" /> {/* Horizontal line */}
           </div>
         </div>
 
