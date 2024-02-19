@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundColor:{
         navy: '#84F45D',
-        customGreen: '#1E5F08'
+        customGreen: '#1E5F08',
+        sky: '#184E06'
       },
       text:{
         navy: '#84F45D',

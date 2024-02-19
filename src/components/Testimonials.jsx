@@ -2,10 +2,17 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineFacebook } from 'react-icons/ai';
 import vector from '../assets/Vector.png'
 import Barley from '../assets/Barley.png'
+import Call from '../assets/Call.png'
+import Mail from '../assets/Mail.png'
+import Location from '../assets/Location.png'
+import Facebook from '../assets/Facebook.png'
+import Instagram from '../assets/Instagram.png'
+import Twitter from '../assets/Twitter.png'
+
 import maintenance from '../assets/maintenance.png'
 const Testimonials = () => {
     return (
-        <div className='bg-customGreen text-white'><div className='flex justify-end'>
+        <div className='bg-sky text-white'><div className='flex justify-end'>
         <div className='text-right mr-20'>
         <h1 className='mb-2 text-3xl'>What our clients say</h1>
         <hr className="border-b-4 border-navy w-20 mb-4 justify-end" /> {/* Horizontal line */}
@@ -55,32 +62,32 @@ const Testimonials = () => {
     </div> */}
       {/* Contact Form */}
       <div className="h-screen flex items-center">
-  <div className="max-w-xl mx-auto flex flex-col md:flex-row bg-white shadow-lg rounded-lg">
+  <div className="max-w-xl mx-auto flex flex-col md:flex-row bg-white shadow-lg rounded-lg" style={{ borderRadius: '20px 0 20px 0' }}>
     {/* Left half */}
-    <div className="w-full md:w-1/2 p-8 bg-customGreen rounded-tl-lg md:rounded-bl-lg md:rounded-tr-lg">
+    <div className="w-full md:w-1/2 p-8 bg-customGreen" >
       <h1 className="text-2xl mb-3 text-white font-bold">Contact Us</h1>
       <div className="space-y-4 text-left">
         <div className="flex items-center space-x-2">
-          <FaPhone style={{ color: 'green', fontSize: '24px' }} />
-          <span>Phone</span>
+          <img src={Call} className="w-10 h-10" />
+          <span className='text-xl'>Phone</span>
         </div>
         <div className="flex items-center space-x-2">
-          <FaEnvelope style={{ color: 'green', fontSize: '24px' }} />
-          <span>Email</span>
+        <img src={Mail} className="w-10 h-10" />
+          <span className='text-xl'>Email</span>
         </div>
         <div className="flex items-center space-x-2">
-          <FaMapMarkerAlt style={{ color: 'green', fontSize: '24px' }} />
-          <span>Location</span>
+        <img src={Location} className="w-10 h-10" />
+          <span className='text-xl'>Location</span>
         </div>
         <div className="flex mt-4">
           <div className="flex items-center space-x-2 p-2">
-            <AiOutlineInstagram style={{ color: 'green', fontSize: '24px' }} />
+          <img src={Facebook} className="w-10 h-10" />
           </div>
           <div className="flex items-center space-x-2 p-2">
-            <AiOutlineTwitter style={{ color: 'green', fontSize: '24px' }} />
+          <img src={Twitter} className="w-10 h-10" />
           </div>
           <div className="flex items-center space-x-2 p-2">
-            <AiOutlineFacebook style={{ color: 'green', fontSize: '24px' }} />
+          <img src={Instagram} className="w-10 h-10" />
           </div>
         </div>
       </div>
