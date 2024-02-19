@@ -62,7 +62,7 @@ const Testimonials = () => {
     </div> */}
       {/* Contact Form */}
       <div className="h-screen flex items-center">
-  <div className="max-w-xl mx-auto flex flex-col md:flex-row bg-white shadow-lg rounded-lg" style={{ borderRadius: '20px 0 20px 0' }}>
+  <div className="max-w-xl mx-auto flex flex-col md:flex-row bg-white" style={{ borderRadius: '20px 20px 20px 20px' }} >
     {/* Left half */}
     <div className="w-full md:w-1/2 p-8 bg-customGreen" >
       <h1 className="text-2xl mb-3 text-white font-bold">Contact Us</h1>
