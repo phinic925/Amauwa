@@ -7,7 +7,7 @@ import grp4 from '../assets/grp4.png'
 import basil from '../assets/Basil.png'
 const About = () => {
   return (
-    <div className='bg-customGreen text-white '>
+    <div className='bg-sky text-white '>
     <div className="flex flex-col sm:flex-row">
   <div className="flex-1 sm:ml-24 mt-20">
     <p className='mb-2 text-3xl'>About Amauwa <br /> Landscaping</p>
@@ -27,7 +27,7 @@ const About = () => {
         <div className='flex justify-end'>
           <div className='text-right mr-20'>
             <h1 className='mb-2 text-3xl'>Our process</h1>
-            <hr className="border-b-4 border-navy w-20 mb-4" /> {/* Horizontal line */}
+            <hr className="border-b-4 border-navy w-20 mb-4 justify-end" /> {/* Horizontal line */}
           </div>
         </div>
 
