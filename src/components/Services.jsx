@@ -70,13 +70,14 @@ function Services() {
 </div>
 
 
-<div className="grid grid-cols-1 pt-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-{gallery.map((service) => (
-<div key={service.id} className="mb-8 relative">
-<img src={service.image} alt={service.alt} className="mb-4 w-100 h-full object-cover" />
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+  {gallery.map((service) => (
+    <div key={service.id} className="mb-3 relative">
+      <img src={service.image} alt={service.alt} className="mb-4 w-full h-full object-cover" />
+    </div>
+  ))}
 </div>
-))}
-</div>
+
   
     </section>
   );
