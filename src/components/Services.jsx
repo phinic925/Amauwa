@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoCheckbox } from "react-icons/go";
 import { servicesData } from '../..';
+import { gallery } from '../..';
 
 import services from '../assets/service.png';
 
@@ -61,21 +62,18 @@ function Services() {
   </div>
   </div>
 
-  <div className='text-left '>
-  <h1 className='mb-2 text-customGreen font-bold text-3xl'>What We Offer</h1>
-  <hr className="border-b-4 border-customGreen w-28 mb-4" /> {/* Horizontal line */}
+  <div className='flex justify-end  bg-customGreen text-white h-28'>
+  <div className='text-right mr-20'>
+    <h1 className='mt-6 text-3xl'>Our Gallery</h1>
+    <hr className="border-b-4 border-navy w-20 mb-4" /> {/* Horizontal line */}
+  </div>
 </div>
 
 
 <div className="grid grid-cols-1 pt-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-{servicesData.map((service) => (
+{gallery.map((service) => (
 <div key={service.id} className="mb-8 relative">
 <img src={service.image} alt={service.alt} className="mb-4 w-100 h-full object-cover" />
-
-
-<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-<h2 className="text-xl font-bold text-white">{service.title}</h2>
-</div>
 </div>
 ))}
 </div>
