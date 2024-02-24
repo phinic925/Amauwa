@@ -56,9 +56,9 @@ function Services() {
     
       <button className="py-2 mt-4 px-4 bg-customGreen text-white rounded-full hover:bg-green-700 transition duration-300">Get Quote</button>
     </div>
-    <div className="mb-8">
-      <img src={services} alt="services" className="w-full h-auto" />
-    </div>
+    <div className="mb-8 mt-16 sm:mt-0"> {/* Add margin to the bottom of this div */}
+    <img src={services} alt="services" className="w-100 h-auto" />
+  </div>
   </div>
   
     </section>
