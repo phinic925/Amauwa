@@ -64,15 +64,15 @@ function Services() {
 
   <div className='flex justify-end  bg-customGreen text-white h-28'>
   <div className='text-right mr-20'>
-    <h1 className='mt-6 text-3xl'>Our Gallery</h1>
-    <hr className="border-b-4 border-navy w-20 mb-4" /> {/* Horizontal line */}
+    <h1 className='m-4 text-3xl'>Our Gallery</h1>
+    <hr className="border-b-4 border-navy w-14 ml-4" /> {/* Horizontal line */}
   </div>
 </div>
 
 
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
   {gallery.map((service) => (
-    <div key={service.id} className="mb-3 relative">
+    <div key={service.id} className="mb-3 mt-2 relative">
       <img src={service.image} alt={service.alt} className="mb-4 w-full h-full object-cover" />
     </div>
   ))}
