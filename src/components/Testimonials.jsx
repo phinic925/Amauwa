@@ -14,47 +14,50 @@ const Testimonials = () => {
     return (
         <div className='bg-sky text-white'><div className='flex justify-end'>
         <div className='text-right mr-20'>
-        <h1 className='mb-2 text-3xl'>What our clients say</h1>
+        <h1 className='m-3 text-3xl'>What our clients say</h1>
         <hr className="border-b-4 border-navy w-20 mb-4 justify-end" /> {/* Horizontal line */}
         </div>
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 max-w-6xl mx-auto">
         {/* Testimonial 1 */}
-        <div className="flex flex-col items-center">
-          <img src={maintenance} alt="Image 1" className="w-24 h-24 rounded-full" />
-          <div className='mt-4 text-center'>
+        <div className="flex items-center">
+          <img src={maintenance} alt="Image 1" className="w-24 h-24 rounded-full mr-4" />
+          <div className='text-left max-w-md'>
             <h1>Phinic Nyangate</h1>
             <p className="mt-2">I hired Amauwa Landscaping to redesign my backyard, and I couldn't be happier with the results!</p>
           </div>
         </div>
-
+      
         {/* Testimonial 2 */}
-        <div className="flex flex-col items-center">
-          <img src={maintenance} alt="Image 2" className="w-24 h-24 rounded-full" />
-          <div className='mt-4 text-center'>
+        <div className="flex items-center">
+          <img src={maintenance} alt="Image 2" className="w-24 h-24 rounded-full mr-4" />
+          <div className='text-left max-w-md'>
             <h1>Phinic Nyangate</h1>
             <p className="mt-2">I hired Amauwa Landscaping to redesign my backyard, and I couldn't be happier with the results!</p>
           </div>
         </div>
-
+      
         {/* Testimonial 3 */}
-        <div className="flex flex-col items-center">
-          <img src={maintenance} alt="Image 3" className="w-24 h-24 rounded-full" />
-          <div className='mt-4 text-center'>
+        <div className="flex items-center">
+          <img src={maintenance} alt="Image 3" className="w-24 h-24 rounded-full mr-4" />
+          <div className='text-left max-w-md'>
             <h1>Phinic Nyangate</h1>
             <p className="mt-2">I hired Amauwa Landscaping to redesign my backyard, and I couldn't be happier with the results!</p>
           </div>
         </div>
-
+      
         {/* Testimonial 4 */}
-        <div className="flex flex-col items-center">
-          <img src={maintenance} alt="Image 4" className="w-24 h-24 rounded-full" />
-          <div className='mt-4 text-center'>
+        <div className="flex items-center">
+          <img src={maintenance} alt="Image 4" className="w-24 h-24 rounded-full mr-4" />
+          <div className='text-left max-w-md'>
             <h1>Phinic Nyangate</h1>
             <p className="mt-2">I hired Amauwa Landscaping to redesign my backyard, and I couldn't be happier with the results!</p>
           </div>
         </div>
       </div>
+      
+
+      
       <hr className="border-t-2  w-1/2 mb-4 mx-auto mt-10" />
 
       {/* <div className="flex justify-start ">
