@@ -102,7 +102,7 @@ const NavBar = () => {
       </div>
 
       {/* Mobile menu, show/hide based on menu state. */}
-      <div className={`${isMenuOpen ? 'block' : 'hidden'} bg-sky md:hidden`} id="mobile-menu">
+      <div className={`${isMenuOpen ? 'block' : 'hidden'} bg-sky md:hidden `} id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <a
             href="#"
