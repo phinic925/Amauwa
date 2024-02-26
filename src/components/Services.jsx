@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoCheckbox } from "react-icons/go";
 import { servicesData } from '../..';
+import { gallery } from '../..';
 
 import services from '../assets/service.png';
 
@@ -56,10 +57,27 @@ function Services() {
     
       <button className="py-2 mt-4 px-4 bg-customGreen text-white rounded-full hover:bg-green-700 transition duration-300">Get Quote</button>
     </div>
-    <div className="mb-8">
-      <img src={services} alt="services" className="w-full h-auto" />
-    </div>
+    <div className="mb-8 mt-16 sm:mt-0"> {/* Add margin to the bottom of this div */}
+    <img src={services} alt="services" className="w-100 h-auto" />
   </div>
+  </div>
+
+  <div className='flex justify-end  bg-customGreen text-white h-28'>
+  <div className='text-right mr-20'>
+    <h1 className='m-4 text-3xl'>Our Gallery</h1>
+    <hr className="border-b-4 border-navy w-14 ml-4" /> {/* Horizontal line */}
+  </div>
+</div>
+
+
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+  {gallery.map((service) => (
+    <div key={service.id} className="mb-3 mt-2 relative">
+      <img src={service.image} alt={service.alt} className="mb-4 w-full h-full object-cover" />
+    </div>
+  ))}
+</div>
+
   
     </section>
   );
